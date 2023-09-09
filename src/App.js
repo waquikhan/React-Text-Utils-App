@@ -21,7 +21,7 @@ function App() {
   return (
   <>
 
-  <Navbar title="Home"  mode={mode} toggleMode={toggleMode}/>
+  <Navbar title="home"  mode={mode} toggleMode={toggleMode}/>
   {/* <Alert alert = " This is a primary alert—check it out!" /> */}
   <div className="container">
   < TextForm heading="Enter the Text "/>
